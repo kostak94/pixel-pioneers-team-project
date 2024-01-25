@@ -13,7 +13,7 @@
     />
     
     <script type="module" crossorigin src="/pixel-pioneers-team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/pixel-pioneers-team-project/assets/index-d7fa1e7d.css">
+    <link rel="stylesheet" href="/pixel-pioneers-team-project/assets/index-d35d707c.css">
   </head>
   <body>
     <header class="header container">
@@ -94,13 +94,30 @@
   <div class="work-top-side">
     <div class="container">
       <h2 class="work-title visually-hidden">How it works</h2>
-      <img
-        class="work-img"
-        src="../images/tell/WomanSmile@1x.png"
-        alt="happy-athletic-voman-cutting-fruit"
-        width="335"
-        height="450"
-      />
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="/pixel-pioneers-team-project/assets/WomanSmile@1x-de93cf70.png 1x, /pixel-pioneers-team-project/assets/WomanSmile@2x-4d1709d2.png 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/tab/WomanSmile@1x.png 1x,
+            ./images/tab/WomanSmile@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          srcset="/pixel-pioneers-team-project/assets/WomanSmile@1x-f35082ad.png 1x, /pixel-pioneers-team-project/assets/WomanSmile@2x-01b997b7.png 2x"
+        />
+        <img
+          class="work-img"
+          src="/pixel-pioneers-team-project/assets/WomanSmile@1x-f35082ad.png"
+          alt="happy-athletic-voman-cutting-fruit"
+          width="335"
+          height="450"
+        />
+      </picture>
     </div>
   </div>
   <div class="work-bottom-side">
