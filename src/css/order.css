@@ -6,11 +6,10 @@
 }
 
 .form-wrapper {
-  min-width: 320px;
   margin-bottom: 20px;
 }
 .order-title {
-  font-size: 48px;
+  font-size: 12.8vw;
   font-weight: 700;
   line-height: 1.04;
   letter-spacing: -0.015em;
@@ -29,7 +28,7 @@
   margin-bottom: 40px;
 }
 .order-form {
-  min-width: 320px;
+  min-width: 280px;
   max-width: 335px;
   border-radius: 30px;
   background: #fbfbfb;
@@ -107,14 +106,16 @@
 }
 .order-btn {
   width: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fbfbfb;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.28;
   letter-spacing: -0.015em;
   text-transform: uppercase;
-  padding: 16px 128px;
+  padding: 16px 0;
   border-radius: 30px;
   background-color: #576f35;
   border: none;
@@ -130,7 +131,6 @@
 }
 .order-fallow {
   max-width: 335px;
-  min-width: 320px;
   background-color: #576f35;
   padding: 40px 20px;
   border-radius: 30px;
