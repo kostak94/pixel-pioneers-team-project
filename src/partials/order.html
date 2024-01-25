@@ -1,15 +1,15 @@
 <section class="order">
   <div class="container">
+    <h2 class="order-title">
+      Fresh <span>Harvest</span> Box has got you covered
+    </h2>
+    <p class="order-desc">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
     <div class="order-inner">
       <div class="form-wrapper">
-        <h2 class="order-title">
-          Fresh <span>Harvest</span> Box has got you covered
-        </h2>
-        <p class="order-desc">
-          Our boxes are packed with delicious, nutritious vegetables, perfect
-          for anyone looking to eat healthier or support local farmers. Order
-          your box today and start enjoying the best that nature has to offer!
-        </p>
         <form class="order-form" name="order-form">
           <p class="form-desc">
             Ordering <span class="red">from us</span> is quick and easy! Fill
@@ -24,6 +24,8 @@
               class="form-input"
               name="name"
               placeholder="Full Name"
+              required
+              pattern="[A-Za-z ']{3,}"
             />
           </div>
           <div class="input-container">
@@ -34,6 +36,8 @@
               class="form-input"
               name="email"
               placeholder="Email"
+              required
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             />
           </div>
           <div class="input-container">
@@ -42,7 +46,6 @@
               id="user-comment"
               class="user-comment"
               name="user-comment"
-              rows="5"
               placeholder="Comment"
             ></textarea>
           </div>
@@ -50,7 +53,40 @@
         </form>
       </div>
       <div class="order-fallow">
-        <img class="fallow-img" src="" alt="" srcset="" />
+        <picture class="fallow-img">
+          <source
+            media="(min-width: 1280px)"
+            sizes="(min-width: 1280px) 528px,
+          100vw"
+            srcset="
+              ../images/desktop/BottleSmoothies@1x.png 1x,
+              ../images/desktop/BottleSmoothies@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:
+          1279px)"
+            sizes="(max-width: 1279px) 100vw, 528px"
+            srcset="
+              ../images/tab/BottleSmoothies@1x.png 1x,
+              ../images/tab/BottleSmoothies@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 320px) and (max-width: 767.98px)"
+            sizes="(max-width: 767.98px) 100vw, 528px"
+            srcset="
+              ../images/tell/BottleSmoothies@1x.png 1x,
+              ../images/tell/BottleSmoothies@2x.png 2x
+            "
+          />
+
+          <img
+            src="../images/tell/BottleSmoothies@1x.png"
+            alt="Bottle Smoothies"
+          />
+        </picture>
+
         <p class="fallow-desc">Follow us on our social networks:</p>
         <ul class="fallow-list">
           <li class="fallow-list-item">
@@ -59,7 +95,11 @@
               href="https://www.instagram.com/goitclub/"
               target="_blank"
               rel="noopener noreferrer"
-            ></a>
+              >instagram</a
+            >
+          </li>
+          <li class="fallow-list-item">
+            <span>/</span>
           </li>
           <li class="fallow-list-item">
             <a
@@ -67,7 +107,11 @@
               href="https://www.facebook.com/goITclub/"
               target="_blank"
               rel="noopener noreferrer"
-            ></a>
+              >facebook</a
+            >
+          </li>
+          <li class="fallow-list-item">
+            <span>/</span>
           </li>
           <li class="fallow-list-item">
             <a
@@ -75,7 +119,8 @@
               href="https://www.youtube.com/c/GoIT"
               target="_blank"
               rel="noopener noreferrer"
-            ></a>
+              >youtube</a
+            >
           </li>
         </ul>
       </div>
