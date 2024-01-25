@@ -2,13 +2,36 @@
   <div class="work-top-side">
     <div class="container">
       <h2 class="work-title visually-hidden">How it works</h2>
-      <img
-        class="work-img"
-        src="../images/tell/WomanSmile@1x.png"
-        alt="happy-athletic-voman-cutting-fruit"
-        width="335"
-        height="450"
-      />
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./images/desktop/WomanSmile@1x.png 1x,
+            ./images/desktop/WomanSmile@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/tab/WomanSmile@1x.png 1x,
+            ./images/tab/WomanSmile@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          srcset="
+            ./images/tell/WomanSmile@1x.png 1x,
+            ./images/tell/WomanSmile@2x.png 2x
+          "
+        />
+        <img
+          class="work-img"
+          src="./images/tell/WomanSmile@1x.png"
+          alt="happy-athletic-voman-cutting-fruit"
+          width="335"
+          height="450"
+        />
+      </picture>
     </div>
   </div>
   <div class="work-bottom-side">
