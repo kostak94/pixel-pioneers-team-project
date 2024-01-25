@@ -13,6 +13,7 @@
   overflow: hidden;
 }
 .work-top-side {
+  display: flex;
   background: #7a3145;
   padding: 40px 0;
 }
