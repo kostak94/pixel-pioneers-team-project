@@ -1,0 +1,86 @@
+.hero {
+  width: 100%;
+  background-color: #576f35;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 12.8vw;
+  font-weight: 700;
+  line-height: 1; /* 100% */
+  letter-spacing: -0.047em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 375px) {
+  .main-title {
+    font-size: 48px;
+  }
+}
+.hero-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.018em;
+  margin-bottom: 40px;
+}
+
+/* TABLET VERSION */
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 143px;
+  }
+
+  .main-title {
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 1; /* 100% */
+    letter-spacing: -0.01em;
+    margin-bottom: 50px;
+  }
+
+  .hero-paragraph {
+    max-width: 603px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
+  }
+}
+
+/* DEKTOP VERSION */
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 0;
+    flex-direction: row;
+  }
+
+  .container.hero-box {
+    max-width: 46%;
+    padding-right: 28px;
+    padding-top: 230px;
+  }
+
+  .main-title {
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 1; /* 100% */
+    letter-spacing: -0.01em;
+    margin-bottom: 136px;
+  }
+
+  .hero-paragraph {
+    max-width: 472px;
+  }
+}
