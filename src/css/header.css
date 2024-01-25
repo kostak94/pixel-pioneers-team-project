@@ -142,3 +142,9 @@
   margin: 28px 0;
   cursor: pointer;
 }
+
+.header-nav-btn:hover,
+.header-nav-btn:focus {
+  color: #7a3145;
+  background-color: #fbfbfb;
+}
