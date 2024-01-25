@@ -1,0 +1,26 @@
+body {
+  background-color: #7a3145;
+  color: #fbfbfb;
+}
+
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: 2px solid rgb(20, 12, 12);
+  outline-offset: -2px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+}
