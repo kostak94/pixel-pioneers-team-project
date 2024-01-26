@@ -75,7 +75,12 @@
   border-color: #7a3145;
   outline: none;
 }
-
+.form-input:not(:placeholder-shown):invalid {
+  border-color: rgb(255, 0, 0);
+}
+.form-input:not(:placeholder-shown):valid {
+  border-color: green;
+}
 .form-input::placeholder {
   color: #141414;
 }
@@ -150,14 +155,19 @@
   flex-wrap: wrap;
   gap: 8px;
 }
-.fallow-list-item {
-}
-.fallow-list-item span {
+.fallow-list-item:not(:last-child)::after {
+  content: '\002F';
   font-size: 24px;
   font-weight: 700;
   line-height: 1.08;
   letter-spacing: -0.015em;
 }
+.fallow-list-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .order-sotial-link {
   display: block;
   color: #fbfbfb;
@@ -258,7 +268,7 @@
     line-height: 1;
     letter-spacing: -0.015em;
   }
-  .fallow-list-item span {
+  .fallow-list-item:not(:last-child)::after {
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.015em;
