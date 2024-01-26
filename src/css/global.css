@@ -1,6 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #7a3145;
   color: #fbfbfb;
+  position: relative;
   margin: 0 auto;
 }
 
