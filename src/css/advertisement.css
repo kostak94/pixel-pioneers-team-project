@@ -10,7 +10,6 @@
 }
 
 .advertisement > .container {
-  padding: 0 10px;
 }
 .visually-hidden {
   position: absolute;
@@ -28,7 +27,8 @@
 .advertisement-desc {
 }
 
-.advertisement-desc > p {
+.advertisement-desc {
+  color: #141414;
   font-size: 48px;
   font-weight: 700;
   line-height: 1.04;
@@ -37,7 +37,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement-desc > p {
+  .advertisement-desc {
     font-size: 64px;
     font-weight: 700;
     line-height: 1.09;
@@ -45,20 +45,16 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement-desc > p {
+  .advertisement-desc {
     font-size: 76px;
     line-height: 1.5;
   }
 }
 
-.advertisement-desc > p:not(.discount) {
-  padding: 0 10px;
-  color: #141414;
-}
-
 .discount {
+  display: flex;
+
   border-radius: 12px;
   background-color: #576f35;
-  padding: 0 10px;
   color: #fbfbfb;
 }
