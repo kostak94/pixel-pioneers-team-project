@@ -1,0 +1,44 @@
+.advertisement {
+  background-color: #fbfbfb;
+  padding: 80px 0;
+}
+
+.advertisement > .container {
+  padding: 0 10px;
+}
+.visualy-hiden {
+}
+.advertisement-desc > p {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement-desc > p {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.09;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement-desc > p {
+    font-size: 76px;
+    line-height: 1.5;
+  }
+}
+
+.advertisement-desc > p:not(.discount) {
+  padding: 0 10px;
+  color: #141414;
+}
+
+.discount {
+  border-radius: 12px;
+  background-color: #576f35;
+  padding: 0 10px;
+  color: #fbfbfb;
+}
