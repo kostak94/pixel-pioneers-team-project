@@ -107,7 +107,7 @@
   color: #7a3145;
 }
 
-.header-nav-btn {
+.header-nav-link {
   color: #fbfbfb;
   font-size: 18px;
   font-weight: 700;
@@ -133,8 +133,8 @@
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav-btn:hover,
-.header-nav-btn:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: #7a3145;
   background-color: #fbfbfb;
 }
