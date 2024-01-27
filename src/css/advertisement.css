@@ -34,6 +34,8 @@
   line-height: 1.04;
   letter-spacing: -0.015em;
   text-transform: uppercase;
+
+  text-shadow: 1px 1px white, 2px 2px #777;
 }
 
 @media screen and (min-width: 768px) {
@@ -58,6 +60,8 @@
   background-color: #576f35;
   color: #fbfbfb;
   padding: 0 10px;
+
+  text-shadow: 5px 5px #333, 4px 4px #777;
 }
 
 @media screen and (min-width: 768px) {
