@@ -17,6 +17,7 @@
   padding: 240px 0 40px;
   display: flex;
   flex-direction: column;
+  opacity: 1;
 }
 
 .modal-button-close {
