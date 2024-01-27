@@ -15,6 +15,8 @@
 .logo-svg.pic{
     display: inline-flex;
     flex-shrink: 0;
+    width: 16px;
+     height: 16px;
 }
 
     .standart-text.footer{
@@ -98,6 +100,11 @@ letter-spacing: -0.01em;
 
     .footer-box{
         padding: 75px 0 24px;
+    }
+
+    .logo-svg.pic{
+        width: 18px;
+         height: 18px;
     }
      
     .footer-wrapper-one{
