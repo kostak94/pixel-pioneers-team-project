@@ -61,22 +61,12 @@
 
 @media screen and (min-width: 768px) {
   .open-menu-mobile-btn {
-    display: none;
+    padding: 35px 0;
   }
 }
 
-.open-menu-tab-desk-btn {
-  background-color: transparent;
-  border: none;
-  padding: 35px 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media only screen and (max-width: 767px), (min-width: 1280px) {
-  .open-menu-tab-desk-btn {
+@media screen and (min-width: 1280px) {
+  .open-menu-mobile-btn {
     display: none;
   }
 }
