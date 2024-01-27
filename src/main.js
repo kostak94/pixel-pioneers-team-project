@@ -9,3 +9,5 @@ var dialog = document.querySelector('dialog');
             ).onclick = function () {
                 dialog.close();
             };
+
+            
