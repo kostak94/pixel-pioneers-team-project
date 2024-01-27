@@ -38,6 +38,20 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.work-img {
+  border-radius: 30px;
+  transition: 250ms cubic-bezier(0.14, 0.04, 0.66, 0.99);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.work-img:hover,
+.work-img:focus {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .work-top-side {
   padding: 40px 0;
 }
@@ -159,6 +173,16 @@
   padding-left: 24px;
   padding-right: 27px;
   gap: 24px;
+  transition: 250ms cubic-bezier(0.14, 0.04, 0.66, 0.99);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.work-item:hover,
+.work-item:focus {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 @media only screen and (min-width: 768px) {
   .work-item {
