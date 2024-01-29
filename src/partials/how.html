@@ -5,8 +5,15 @@
       <picture>
         <source
           media="(min-width: 1280px)"
-          width="430"
-          height="640"
+          type="image/webp"
+          srcset="
+            ./images/desktop/WomanSmile@1x.webp 1x,
+            ./images/desktop/WomanSmile@2x.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 1280px)"
+          type="image/png"
           srcset="
             ./images/desktop/WomanSmile@1x.png 1x,
             ./images/desktop/WomanSmile@2x.png 2x
@@ -14,8 +21,15 @@
         />
         <source
           media="(min-width: 768px)"
-          width="640"
-          height="640"
+          type="image/webp"
+          srcset="
+            ./images/tab/WomanSmile@1x.webp 1x,
+            ./images/tab/WomanSmile@2x.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          type="image/png"
           srcset="
             ./images/tab/WomanSmile@1x.png 1x,
             ./images/tab/WomanSmile@2x.png 2x
@@ -23,8 +37,15 @@
         />
         <source
           media="(min-width: 320px)"
-          width="335"
-          height="450"
+          type="image/webp"
+          srcset="
+            ./images/tell/WomanSmile@1x.webp 1x,
+            ./images/tell/WomanSmile@2x.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          type="image/png"
           srcset="
             ./images/tell/WomanSmile@1x.png 1x,
             ./images/tell/WomanSmile@2x.png 2x
@@ -34,6 +55,7 @@
           width="335"
           height="450"
           class="work-img"
+          loading="lazy"
           src="./images/tell/WomanSmile@1x.png"
           alt="happy-athletic-voman-cutting-fruit"
         />

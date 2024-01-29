@@ -12,9 +12,15 @@
     <picture>
       <!-- Desktop screen -->
       <source
+        type="image/webp"
+        media="(min-width: 1280px)"
+        srcset="
+          ./images/desktop/BasketVegetables@1x.webp 1x,
+          ./images/desktop/BasketVegetables@2x.webp 2x
+        "
+      />
+      <source
         type="image/jpeg"
-        width="650"
-        height="800"
         media="(min-width: 1280px)"
         srcset="
           ./images/desktop/BasketVegetables@1x.jpg 1x,
@@ -23,10 +29,16 @@
       />
       <!-- Tablet screen -->
       <source
+        type="image/webp"
+        media="(min-width: 768px)"
+        srcset="
+          ./images/tab/BasketVegetables@1x.webp 1x,
+          ./images/tab/BasketVegetables@2x.webp 2x
+        "
+      />
+      <source
         type="image/jpeg"
         media="(min-width: 768px)"
-        width="768"
-        height="518"
         srcset="
           ./images/tab/BasketVegetables@1x.jpg 1x,
           ./images/tab/BasketVegetables@2x.jpg 2x
@@ -34,10 +46,16 @@
       />
       <!-- Mobile screen -->
       <source
+        media="(min-width: 320px)"
+        type="image/webp"
+        srcset="
+          ./images/tell/BasketVegetables@1x.webp 1x,
+          ./images/tell/BasketVegetables@2x.webp 2x
+        "
+      />
+      <source
         type="image/jpeg"
         media="(min-width: 320px)"
-        width="375"
-        height="370"
         srcset="
           ./images/tell/BasketVegetables@1x.jpg 1x,
           ./images/tell/BasketVegetables@2x.jpg 2x
@@ -46,6 +64,7 @@
       <img
         width="375"
         height="370"
+        loading="lazy"
         class="basket-vegetables-img"
         src="./images/tell/BasketVegetables@1x.jpg"
         alt="basket-vegetables"

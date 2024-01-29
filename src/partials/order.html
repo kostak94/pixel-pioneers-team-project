@@ -56,8 +56,15 @@
         <picture class="fallow-img">
           <source
             media="(min-width: 1280px)"
-            width="427"
-            height="273"
+            type="image/webp"
+            srcset="
+              ./images/desktop/BottleSmoothies@1x.webp 1x,
+              ./images/desktop/BottleSmoothies@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            type="image/png"
             srcset="
               ./images/desktop/BottleSmoothies@1x.png 1x,
               ./images/desktop/BottleSmoothies@2x.png 2x
@@ -66,8 +73,16 @@
           <source
             media="(min-width: 768px) and (max-width:
           1279px)"
-            width="528"
-            height="273"
+            type="image/webp"
+            srcset="
+              ./images/tab/BottleSmoothies@1x.webp 1x,
+              ./images/tab/BottleSmoothies@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 768px) and (max-width:
+          1279px)"
+            type="image/png"
             srcset="
               ./images/tab/BottleSmoothies@1x.png 1x,
               ./images/tab/BottleSmoothies@2x.png 2x
@@ -75,8 +90,15 @@
           />
           <source
             media="(min-width: 320px) and (max-width: 767.98px)"
-            width="295"
-            height="273"
+            type="image/webp"
+            srcset="
+              ./images/tell/BottleSmoothies@1x.webp 1x,
+              ./images/tell/BottleSmoothies@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 320px) and (max-width: 767.98px)"
+            type="image/png"
             srcset="
               ./images/tell/BottleSmoothies@1x.png 1x,
               ./images/tell/BottleSmoothies@2x.png 2x
@@ -84,8 +106,10 @@
           />
 
           <img
+            class="order-img"
             width="295"
             height="273"
+            loading="lazy"
             src="./images/tell/BottleSmoothies@1x.png"
             alt="Bottle Smoothies"
           />
