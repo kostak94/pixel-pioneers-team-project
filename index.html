@@ -33,7 +33,7 @@
     />
     
     <script type="module" crossorigin src="/pixel-pioneers-team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/pixel-pioneers-team-project/assets/index-f4322cce.css">
+    <link rel="stylesheet" href="/pixel-pioneers-team-project/assets/index-f4df1053.css">
   </head>
   <body>
     <header class="header">
@@ -101,33 +101,43 @@
     <picture>
       <!-- Desktop screen -->
       <source
+        type="image/webp"
+        media="(min-width: 1280px)"
+        srcset="/pixel-pioneers-team-project/assets/BasketVegetables@1x-4a186f0c.webp 1x, /pixel-pioneers-team-project/assets/BasketVegetables@2x-967d356e.webp 2x"
+      />
+      <source
         type="image/jpeg"
-        width="650"
-        height="800"
         media="(min-width: 1280px)"
         srcset="/pixel-pioneers-team-project/assets/BasketVegetables@1x-3c739001.jpg 1x, /pixel-pioneers-team-project/assets/BasketVegetables@2x-79fad23b.jpg 2x"
       />
       <!-- Tablet screen -->
       <source
+        type="image/webp"
+        media="(min-width: 768px)"
+        srcset="/pixel-pioneers-team-project/assets/BasketVegetables@1x-5c2fa681.webp 1x, /pixel-pioneers-team-project/assets/BasketVegetables@2x-4d6c82d0.webp 2x"
+      />
+      <source
         type="image/jpeg"
         media="(min-width: 768px)"
-        width="768"
-        height="518"
         srcset="/pixel-pioneers-team-project/assets/BasketVegetables@1x-252ce510.jpg 1x, /pixel-pioneers-team-project/assets/BasketVegetables@2x-87497418.jpg 2x"
       />
       <!-- Mobile screen -->
       <source
+        media="(min-width: 320px)"
+        type="image/webp"
+        srcset="/pixel-pioneers-team-project/assets/BasketVegetables@1x-971ee7ae.webp 1x, /pixel-pioneers-team-project/assets/BasketVegetables@2x-3b55a16f.webp 2x"
+      />
+      <source
         type="image/jpeg"
         media="(min-width: 320px)"
-        width="375"
-        height="370"
         srcset="/pixel-pioneers-team-project/assets/BasketVegetables@1x-792cc6fa.jpg 1x, /pixel-pioneers-team-project/assets/BasketVegetables@2x-f0efded7.jpg 2x"
       />
       <img
         width="375"
         height="370"
+        loading="lazy"
         class="basket-vegetables-img"
-        src="/pixel-pioneers-team-project/assets/BasketVegetables@1x-792cc6fa.jpg"
+        src="/pixel-pioneers-team-project/assets/BasketVegetables@1x-971ee7ae.webp"
         alt="basket-vegetables"
       />
     </picture>
@@ -141,27 +151,40 @@
       <picture>
         <source
           media="(min-width: 1280px)"
-          width="430"
-          height="640"
+          type="image/webp"
+          srcset="/pixel-pioneers-team-project/assets/WomanSmile@1x-07137fbe.webp 1x, /pixel-pioneers-team-project/assets/WomanSmile@2x-93047e39.webp 2x"
+        />
+        <source
+          media="(min-width: 1280px)"
+          type="image/png"
           srcset="/pixel-pioneers-team-project/assets/WomanSmile@1x-de93cf70.png 1x, /pixel-pioneers-team-project/assets/WomanSmile@2x-4d1709d2.png 2x"
         />
         <source
           media="(min-width: 768px)"
-          width="640"
-          height="640"
+          type="image/webp"
+          srcset="/pixel-pioneers-team-project/assets/WomanSmile@1x-aec148cf.webp 1x, /pixel-pioneers-team-project/assets/WomanSmile@2x-fd4fa1b9.webp 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          type="image/png"
           srcset="/pixel-pioneers-team-project/assets/WomanSmile@1x-7d5e6cd0.png 1x, /pixel-pioneers-team-project/assets/WomanSmile@2x-7c961017.png 2x"
         />
         <source
           media="(min-width: 320px)"
-          width="335"
-          height="450"
+          type="image/webp"
+          srcset="/pixel-pioneers-team-project/assets/WomanSmile@1x-348fe576.webp 1x, /pixel-pioneers-team-project/assets/WomanSmile@2x-1d690c0e.webp 2x"
+        />
+        <source
+          media="(min-width: 320px)"
+          type="image/png"
           srcset="/pixel-pioneers-team-project/assets/WomanSmile@1x-f35082ad.png 1x, /pixel-pioneers-team-project/assets/WomanSmile@2x-01b997b7.png 2x"
         />
         <img
           width="335"
           height="450"
           class="work-img"
-          src="/pixel-pioneers-team-project/assets/WomanSmile@1x-f35082ad.png"
+          loading="lazy"
+          src="/pixel-pioneers-team-project/assets/WomanSmile@1x-348fe576.webp"
           alt="happy-athletic-voman-cutting-fruit"
         />
       </picture>
@@ -235,74 +258,134 @@
       <li class="vegetables-item">
         <h3 class="vegetables-item-hthree">eggplant</h3>
         <p class="vegetables-item-p">60 UAH / kg</p>
-        <img
-          class="vegetables-item-img"
-          srcset="/pixel-pioneers-team-project/assets/eggplant@1x-a562a54d.png 1x, /pixel-pioneers-team-project/assets/eggplant@2x-875b3cc2.png 2x"
-          src="/pixel-pioneers-team-project/assets/eggplant@1x-a562a54d.png"
-          alt="eggplant"
-          width="282"
-          height="243"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/eggplant@1x-2212e3fc.webp 1x, /pixel-pioneers-team-project/assets/eggplant@2x-30379ca4.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/eggplant@1x-a562a54d.png 1x, /pixel-pioneers-team-project/assets/eggplant@2x-875b3cc2.png 2x"
+          />
+          <img
+            class="vegetables-item-img"
+            loading="lazy"
+            src="/pixel-pioneers-team-project/assets/eggplant@1x-2212e3fc.webp"
+            alt="eggplant"
+            width="282"
+            height="243"
+          />
+        </picture>
       </li>
       <li class="vegetables-item">
         <h3 class="vegetables-item-hthree">leek</h3>
         <p class="vegetables-item-p">50 UAH / kg</p>
-        <img
-          class="vegetables-item-img"
-          srcset="/pixel-pioneers-team-project/assets/leek@1x-0b4b8adf.png 1x, /pixel-pioneers-team-project/assets/leek@2x-140d8816.png 2x"
-          src="/pixel-pioneers-team-project/assets/leek@1x-0b4b8adf.png"
-          alt="leek"
-          width="282"
-          height="243"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/leek@1x-231532bb.webp 1x, /pixel-pioneers-team-project/assets/leek@2x-e8654951.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/leek@1x-0b4b8adf.png 1x, /pixel-pioneers-team-project/assets/leek@2x-140d8816.png 2x"
+          />
+          <img
+            class="vegetables-item-img"
+            loading="lazy"
+            src="/pixel-pioneers-team-project/assets/leek@1x-231532bb.webp"
+            alt="leek"
+            width="282"
+            height="243"
+          />
+        </picture>
       </li>
       <li class="vegetables-item">
         <h3 class="vegetables-item-hthree">mushrooms</h3>
         <p class="vegetables-item-p">40 UAH / kg</p>
-        <img
-          class="vegetables-item-img"
-          srcset="/pixel-pioneers-team-project/assets/mushrooms@1x-8dac2bce.png 1x, /pixel-pioneers-team-project/assets/mushrooms@2x-be7aca24.png 2x"
-          src="/pixel-pioneers-team-project/assets/mushrooms@1x-8dac2bce.png"
-          alt="mushrooms"
-          width="282"
-          height="243"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/mushrooms@1x-031e211b.webp 1x, /pixel-pioneers-team-project/assets/mushrooms@2x-daf0cb68.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/mushrooms@1x-8dac2bce.png 1x, /pixel-pioneers-team-project/assets/mushrooms@2x-be7aca24.png 2x"
+          />
+          <img
+            class="vegetables-item-img"
+            loading="lazy"
+            src="/pixel-pioneers-team-project/assets/mushrooms@1x-031e211b.webp"
+            alt="mushrooms"
+            width="282"
+            height="243"
+          />
+        </picture>
       </li>
       <li class="vegetables-item">
         <h3 class="vegetables-item-hthree">corn</h3>
         <p class="vegetables-item-p">60 UAH / kg</p>
-        <img
-          class="vegetables-item-img"
-          srcset="/pixel-pioneers-team-project/assets/corn@1x-fb38f03b.png 1x, /pixel-pioneers-team-project/assets/corn@2x-5952b79a.png 2x"
-          src="/pixel-pioneers-team-project/assets/corn@1x-fb38f03b.png"
-          alt="corn"
-          width="282"
-          height="243"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/corn@1x-7d78c0ff.webp 1x, /pixel-pioneers-team-project/assets/corn@2x-1cec02a0.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/corn@1x-fb38f03b.png 1x, /pixel-pioneers-team-project/assets/corn@2x-5952b79a.png 2x"
+          />
+          <img
+            class="vegetables-item-img"
+            loading="lazy"
+            src="/pixel-pioneers-team-project/assets/corn@1x-7d78c0ff.webp"
+            alt="corn"
+            width="282"
+            height="243"
+          />
+        </picture>
       </li>
       <li class="vegetables-item">
         <h3 class="vegetables-item-hthree">sweet potatoes</h3>
         <p class="vegetables-item-p">50 UAH / kg</p>
-        <img
-          class="vegetables-item-img"
-          srcset="/pixel-pioneers-team-project/assets/potatoes@1x-9da1f234.png 1x, /pixel-pioneers-team-project/assets/potatoes@2x-406fc00a.png 2x"
-          src="/pixel-pioneers-team-project/assets/potatoes@1x-9da1f234.png"
-          alt="potatoes"
-          width="282"
-          height="243"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/potatoes@1x-3203149b.webp 1x, /pixel-pioneers-team-project/assets/potatoes@2x-df932530.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/potatoes@1x-9da1f234.png 1x, /pixel-pioneers-team-project/assets/potatoes@2x-406fc00a.png 2x"
+          />
+          <img
+            class="vegetables-item-img"
+            loading="lazy"
+            src="/pixel-pioneers-team-project/assets/potatoes@1x-3203149b.webp"
+            alt="potatoes"
+            width="282"
+            height="243"
+          />
+        </picture>
       </li>
       <li class="vegetables-item">
         <h3 class="vegetables-item-hthree">carrot</h3>
         <p class="vegetables-item-p">40 UAH / kg</p>
-        <img
-          class="vegetables-item-img"
-          srcset="/pixel-pioneers-team-project/assets/carrot@1x-2dc430ab.png 1x, /pixel-pioneers-team-project/assets/carrot@2x-4be5d530.png 2x"
-          src="/pixel-pioneers-team-project/assets/carrot@1x-2dc430ab.png"
-          alt="carrot"
-          width="282"
-          height="243"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/carrot@1x-bfc5806b.webp 1x, /pixel-pioneers-team-project/assets/carrot@2x-6407f3a5.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/carrot@1x-2dc430ab.png 1x, /pixel-pioneers-team-project/assets/carrot@2x-4be5d530.png 2x"
+          />
+          <img
+            class="vegetables-item-img"
+            loading="lazy"
+            src="/pixel-pioneers-team-project/assets/carrot@1x-bfc5806b.webp"
+            alt="carrot"
+            width="282"
+            height="243"
+          />
+        </picture>
       </li>
     </ul>
     <div class="vegetables-shop-link-box">
@@ -322,13 +405,23 @@
     </p>
     <ul class="reviews-list">
       <li class="reviews-item">
-        <img
-          srcset="/pixel-pioneers-team-project/assets/JohnWax@1x-e581d1fa.png 1x, /pixel-pioneers-team-project/assets/JohnWax@2x-ebfcc992.png 2x"
-          src="/pixel-pioneers-team-project/assets/JohnWax@1x-e581d1fa.png"
-          alt="JohnWax review"
-          width="56"
-          height="56"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="data:image/webp;base64,UklGRggEAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFXbbt3oQggEQQgEM5gwiBk0DCwIYdAyCARDMARBEAT1mdjSWvMdEROAvpT3Q9TMtNV9IXidi9jVtpOHVK1vXUelav0ljZgOG3unbklstKRON/NYuhTzWToU81ouFfNbLtzM83qK1JXSGTHf7UQx7/yDxJ1O3x7mn7+QBdTpI0cw/pAQDcBsMROwBWGgBqmABlHMFpVSmL8cJnMY/lflMHkJkyjMDA2iQA1SAQ6yASnIDKCFEADgEOvHpBHoAxzgjq+TuhP6BnbH+N2cCU6SulI6g+xqw3l2xLjKbhjX2QmjJ7vY0DfJMEnoTY9Bx4SBSQbUhMG5dqoJDmlvl4RneKVlr03NTOXYM6EvVlA4INYCAABQEACdASo5ADgAPm0wlUekIqIhJhqrEIANiUDFAIEB+AH6AfwDQAP4BAgH4AWNySezaQHPjt+KzpixHVrgJWQje9GPP59L+wR0lfRAYlCXekQStjFcvx2OSKX5ZUE3jGX/jpPiE4ls9xT2ixXMtre+6q6SJtwDO+/lU/Y5ZJhP77+JhfY0PMqZR/4AAP7wrVDf+w4eQiVmvhjrdUCMu+vwAvKVb0aPUSgN41Ji0oDwgX+npjcG6BA5nDneaFt1n+BXm43At/1lLp8hDRncdYmM5JnutoeP9ilp2UPc4uzq4poCD9YgVfEpSbkz+pXOFCtq4cKFL+hdNxAzbG2CIQue1xvDI0PWI4Q5xELP/hYXhD3BhPvTn+UghegOLax4xJZnejyd6r5nzhIPLWev7gWk/H3BODqN3Q7GlcL0tD7Y8PgT+W+tkOBU2gwqDDnXyu2eiSK9KJKJxd27QuwfRq87aR1r956gN/kLxx5zayRh4OgEN7NycqynJ0xICGV/HLJfKqJP1Ov5z8qZz6IiOxpLYJmxFhZ620tshJhzetkPJLaxEq8HiHFvEjUB9rCuSCp259fILzYftlJ4XIcHlB4SaJnt0Cv+W98UJHDFN5FvqbdW2FrcpHPSlIO1I3X5D7p3dTlqvf+chec8B33zdR5omvGmODbayT3xOEZv1/ucFa93RCoS9bG1OS6j8GRVpWdZnt3/Ut44RW+f0ij0Clr1oRToA5SzyNcYVWM01uWkcWl2gGTKFNUR+7Y0hVTw0XlAKonBFr/Ke48CCRxaKHRdK5z+nssJfPwwwDDAZMgYIpKtLbEai7+wSeQk93D4rH4CVvt5UyZqvtoC6LRU05LsEetDeBPaXIkGAGlVNUUA5wZHKQJE9TZOwiPV6XkcZR0S/1wh3xcguq/6wlBVrzB/ZRVvyjQ9hP3qqqE+7A1JHH9WzfPS1ULeojYYRCUZ7//L4mMAAAA= 1x, data:image/webp;base64,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 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/JohnWax@1x-e581d1fa.png 1x, /pixel-pioneers-team-project/assets/JohnWax@2x-ebfcc992.png 2x"
+          />
+          <img
+            loading="lazy"
+            src="data:image/webp;base64,UklGRggEAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFXbbt3oQggEQQgEM5gwiBk0DCwIYdAyCARDMARBEAT1mdjSWvMdEROAvpT3Q9TMtNV9IXidi9jVtpOHVK1vXUelav0ljZgOG3unbklstKRON/NYuhTzWToU81ouFfNbLtzM83qK1JXSGTHf7UQx7/yDxJ1O3x7mn7+QBdTpI0cw/pAQDcBsMROwBWGgBqmABlHMFpVSmL8cJnMY/lflMHkJkyjMDA2iQA1SAQ6yASnIDKCFEADgEOvHpBHoAxzgjq+TuhP6BnbH+N2cCU6SulI6g+xqw3l2xLjKbhjX2QmjJ7vY0DfJMEnoTY9Bx4SBSQbUhMG5dqoJDmlvl4RneKVlr03NTOXYM6EvVlA4INYCAABQEACdASo5ADgAPm0wlUekIqIhJhqrEIANiUDFAIEB+AH6AfwDQAP4BAgH4AWNySezaQHPjt+KzpixHVrgJWQje9GPP59L+wR0lfRAYlCXekQStjFcvx2OSKX5ZUE3jGX/jpPiE4ls9xT2ixXMtre+6q6SJtwDO+/lU/Y5ZJhP77+JhfY0PMqZR/4AAP7wrVDf+w4eQiVmvhjrdUCMu+vwAvKVb0aPUSgN41Ji0oDwgX+npjcG6BA5nDneaFt1n+BXm43At/1lLp8hDRncdYmM5JnutoeP9ilp2UPc4uzq4poCD9YgVfEpSbkz+pXOFCtq4cKFL+hdNxAzbG2CIQue1xvDI0PWI4Q5xELP/hYXhD3BhPvTn+UghegOLax4xJZnejyd6r5nzhIPLWev7gWk/H3BODqN3Q7GlcL0tD7Y8PgT+W+tkOBU2gwqDDnXyu2eiSK9KJKJxd27QuwfRq87aR1r956gN/kLxx5zayRh4OgEN7NycqynJ0xICGV/HLJfKqJP1Ov5z8qZz6IiOxpLYJmxFhZ620tshJhzetkPJLaxEq8HiHFvEjUB9rCuSCp259fILzYftlJ4XIcHlB4SaJnt0Cv+W98UJHDFN5FvqbdW2FrcpHPSlIO1I3X5D7p3dTlqvf+chec8B33zdR5omvGmODbayT3xOEZv1/ucFa93RCoS9bG1OS6j8GRVpWdZnt3/Ut44RW+f0ij0Clr1oRToA5SzyNcYVWM01uWkcWl2gGTKFNUR+7Y0hVTw0XlAKonBFr/Ke48CCRxaKHRdK5z+nssJfPwwwDDAZMgYIpKtLbEai7+wSeQk93D4rH4CVvt5UyZqvtoC6LRU05LsEetDeBPaXIkGAGlVNUUA5wZHKQJE9TZOwiPV6XkcZR0S/1wh3xcguq/6wlBVrzB/ZRVvyjQ9hP3qqqE+7A1JHH9WzfPS1ULeojYYRCUZ7//L4mMAAAA="
+            alt="JohnWax review"
+            width="56"
+            height="56"
+          />
+        </picture>
         <div class="reviews-data">
           <h3 class="reviews-name">John Wax</h3>
           <p class="reviews-desc">
@@ -339,13 +432,23 @@
         </div>
       </li>
       <li class="reviews-item">
-        <img
-          srcset="/pixel-pioneers-team-project/assets/VictoriaRomashenko@1x-0716fd16.png 1x, /pixel-pioneers-team-project/assets/VictoriaRomashenko@2x-542500ce.png 2x"
-          src="/pixel-pioneers-team-project/assets/VictoriaRomashenko@1x-0716fd16.png"
-          alt="JohnWax review"
-          width="56"
-          height="56"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="data:image/webp;base64,UklGRu4DAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFXbbt3oQggEQQgEM5gwiBk0DCwIYdAyCARDMARBEAT1mdjSWvMdEROAvpT3Q9TMtNV9IXidi9jVtpOHVK1vXUelav0ljZgOG3unbklstKRON/NYuhTzWToU81ouFfNbLtzM83qK1JXSGTHf7UQx7/yDxJ1O3x7mn7+QBdTpI0cw/pAQDcBsMROwBWGgBqmABlHMFpVSmL8cJnMY/lflMHkJkyjMDA2iQA1SAQ6yASnIDKCFEADgEOvHpBHoAxzgjq+TuhP6BnbH+N2cCU6SulI6g+xqw3l2xLjKbhjX2QmjJ7vY0DfJMEnoTY9Bx4SBSQbUhMG5dqoJDmlvl4RneKVlr03NTOXYM6EvVlA4ILwCAACQDQCdASo5ADgAPm0wkkckIyGhLBgJmIANiWMAy/mzlJZ/gOhOSjv6ywAgOaD5D9QbbAFszo/5DYknLmmJ2T671inBLg4z+ZN7wVlK7EEHcLayrtuv3X+c6qaHQ6++v8kbmX67T6JPPXKs7/yfCTrVOcGucAAA/v+dcf/48yf/x57JVr7BXOqkIheoQGT54IULsP7Zx1/j32YlFdbXQ9JgU1NmDAgk9786MqB+GWTT4qdJEpzkdWR40CVrkD6aHQw5SV4j6NKCzN2GVB9VTNCyfzr8dOvUTjFqn6uZ5f/2aBTZMs7pD+ASjO2Lb577aDrEIbZCIeukHv1s0RBuc4fx6f//jq//+PKv//jrvvj1DTZC/4vjhZ5tKicl07esHIabsC30MNjGZdrgpWN7r+xVTpPHx6PziHrh+HDd0qOWO8GdWNpm2lS78waGQVKDHZaX4e65bASdlwsHHg+19lRkJxHjinXoAPwA3BNVQzpzdmhwwheZ/3XGXpiQ46cKWF38AEr7QNFCMLdHU81jvAQRbmzAN4BS3f8OwtDSS2ErZl6mn+DRP1KvGNm3cxx+fKj78x39/09uj5zGnCBI8D+BkvN31s1uTg0XUfHAQ4nf13y1xTURsRhANOODptVt8nOYPOsxVvmdp5iZWcK6P19CJevyTMUhjzlfgKgh/rGudoHnkclwYTV//EYfx3AQasHW+/LvDaPdePL0+aNooDhVW8i2bjQhfu+le/+LWpD9We7KFhd2xxGDlJqpDL+2KTx5Cmn0xQOKQdINMG+yra3ZerwlUy8C1gPSVEp5OCDRb+PD8tcmULGtKVvU7/+q9I1CGv4J1qdlhGu6Pcvw/xNY/nh/6pPaVolV5hJ2lYZxnC63OtA3U6N5VyHZNvyP6KxSlnyRWdJxPOnHD2jtbJi3CX0anpgVJ/VQAAAA 1x, data:image/webp;base64,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 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/VictoriaRomashenko@1x-0716fd16.png 1x, /pixel-pioneers-team-project/assets/VictoriaRomashenko@2x-542500ce.png 2x"
+          />
+          <img
+            loading="lazy"
+            src="data:image/webp;base64,UklGRu4DAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFXbbt3oQggEQQgEM5gwiBk0DCwIYdAyCARDMARBEAT1mdjSWvMdEROAvpT3Q9TMtNV9IXidi9jVtpOHVK1vXUelav0ljZgOG3unbklstKRON/NYuhTzWToU81ouFfNbLtzM83qK1JXSGTHf7UQx7/yDxJ1O3x7mn7+QBdTpI0cw/pAQDcBsMROwBWGgBqmABlHMFpVSmL8cJnMY/lflMHkJkyjMDA2iQA1SAQ6yASnIDKCFEADgEOvHpBHoAxzgjq+TuhP6BnbH+N2cCU6SulI6g+xqw3l2xLjKbhjX2QmjJ7vY0DfJMEnoTY9Bx4SBSQbUhMG5dqoJDmlvl4RneKVlr03NTOXYM6EvVlA4ILwCAACQDQCdASo5ADgAPm0wkkckIyGhLBgJmIANiWMAy/mzlJZ/gOhOSjv6ywAgOaD5D9QbbAFszo/5DYknLmmJ2T671inBLg4z+ZN7wVlK7EEHcLayrtuv3X+c6qaHQ6++v8kbmX67T6JPPXKs7/yfCTrVOcGucAAA/v+dcf/48yf/x57JVr7BXOqkIheoQGT54IULsP7Zx1/j32YlFdbXQ9JgU1NmDAgk9786MqB+GWTT4qdJEpzkdWR40CVrkD6aHQw5SV4j6NKCzN2GVB9VTNCyfzr8dOvUTjFqn6uZ5f/2aBTZMs7pD+ASjO2Lb577aDrEIbZCIeukHv1s0RBuc4fx6f//jq//+PKv//jrvvj1DTZC/4vjhZ5tKicl07esHIabsC30MNjGZdrgpWN7r+xVTpPHx6PziHrh+HDd0qOWO8GdWNpm2lS78waGQVKDHZaX4e65bASdlwsHHg+19lRkJxHjinXoAPwA3BNVQzpzdmhwwheZ/3XGXpiQ46cKWF38AEr7QNFCMLdHU81jvAQRbmzAN4BS3f8OwtDSS2ErZl6mn+DRP1KvGNm3cxx+fKj78x39/09uj5zGnCBI8D+BkvN31s1uTg0XUfHAQ4nf13y1xTURsRhANOODptVt8nOYPOsxVvmdp5iZWcK6P19CJevyTMUhjzlfgKgh/rGudoHnkclwYTV//EYfx3AQasHW+/LvDaPdePL0+aNooDhVW8i2bjQhfu+le/+LWpD9We7KFhd2xxGDlJqpDL+2KTx5Cmn0xQOKQdINMG+yra3ZerwlUy8C1gPSVEp5OCDRb+PD8tcmULGtKVvU7/+q9I1CGv4J1qdlhGu6Pcvw/xNY/nh/6pPaVolV5hJ2lYZxnC63OtA3U6N5VyHZNvyP6KxSlnyRWdJxPOnHD2jtbJi3CX0anpgVJ/VQAAAA"
+            alt="JohnWax review"
+            width="56"
+            height="56"
+          />
+        </picture>
         <div class="reviews-data">
           <h3 class="reviews-name">Victoria Romashenko</h3>
           <p class="reviews-desc">
@@ -356,13 +459,23 @@
         </div>
       </li>
       <li class="reviews-item">
-        <img
-          srcset="/pixel-pioneers-team-project/assets/IhorTrachuk@1x-37538750.png 1x, /pixel-pioneers-team-project/assets/IhorTrachuk@2x-43aebd60.png 2x"
-          src="/pixel-pioneers-team-project/assets/IhorTrachuk@1x-37538750.png"
-          alt="JohnWax review"
-          width="56"
-          height="56"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="data:image/webp;base64,UklGRhIEAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFXbbt3oQggEQQgEM5gwiBk0DCwIYdAyCARDMARBEAT1mdjSWvMdEROAvpT3Q9TMtNV9IXidi9jVtpOHVK1vXUelav0ljZgOG3unbklstKRON/NYuhTzWToU81ouFfNbLtzM83qK1JXSGTHf7UQx7/yDxJ1O3x7mn7+QBdTpI0cw/pAQDcBsMROwBWGgBqmABlHMFpVSmL8cJnMY/lflMHkJkyjMDA2iQA1SAQ6yASnIDKCFEADgEOvHpBHoAxzgjq+TuhP6BnbH+N2cCU6SulI6g+xqw3l2xLjKbhjX2QmjJ7vY0DfJMEnoTY9Bx4SBSQbUhMG5dqoJDmlvl4RneKVlr03NTOXYM6EvVlA4IOACAADQDQCdASo5ADgAPm0skkYkIqGhLhbbiIANiWIAzBRpDShuW8q34Bp9zNSJMdrEg1kOoGuL9pYyySP+YzraLeqQdj9WAAeLj22Jmmxigw7xMt2XnDqLEN4vKeEHrk1LVCFBCsKB5W/h656qSIOsWYRTJaBrdjhAcAD+8Yx//0Of//Qyz//6FDYHV6AMBgOJt5YT/t79uVGxc/L/UbiZSKid1scmc/xl4qAzoFm2ntfPHch6/9Kh+d0I3bIwTZqrqx6UuK+4var9qEA+eWd562Dl+Eor9XvGtfzA0m+vnKr/48/eJKMcCDaR2CqJWwkz+mHQAPNojL8Bgd8Us35fBLhyUB8rrs/Rfrk4KL0qqpA/1UA123vNTXElM97rTVBv8w9Dx2MmrOh+P/GGHt5aF6y9/B1+wF1oygbgB/9JfudfTGRam+qpviSEVxAeyWRTrfYID4pPDStlR4tf0GaArnrKqAkvSh6Q2gg4uIcE4C7aGXoV4gWsgEFo2udgqG5XvbPqlZMRPUu7aWHwMXmNNAApGjd63FH1F8vdBZDvSBK6O/5H6sj/IoB+KvUK+gviN9v/9m0Hj5/4W2F+Lez00noU9HRJRi//yYzG3qHgvBUsw91Ls6fDKqWoIousT3VdzGxKxpeKOf0o98Ub80xWPHtUbaXVcPXpugyDBsle5SDRW3GYlS0v3mHq/jtLG+uKeGzRsULTgh1t+RschVBEoZPe5E0f8C0LJis1b7BcH9BhMxilvDvla3SejrE1cUu3NDcVkKwu+ERrGf/8eosGmW3ij6RveFXzpv0m6HLZA4tDowFo//Dof/2JTT4yqWdChuTTc7m7kBOj/L2Uh7eH/1fu5oW2YaC+JBudjIX/GFEJUTLjbgZRnypsBD1WnFk5gihpL38ms1kbT3zO9pxMdo2h+JI8EtyQ9tNd011R7EFP2HAmOfBHOnv21TM5jGWE2QNI48rICRGMX/GYPOOqAAAA 1x, data:image/webp;base64,UklGRsQHAABXRUJQVlA4WAoAAAAQAAAAcAAAbwAAQUxQSAsCAAABkFXbVh06WwISkBAJOLg4ACfBQXBAnCABCUcCEs5tmweBc8boZ0RMACY3W0ylEnVm5k6tluQ3iG1ibjy4lWDlcXvjj1t2kpideErKVghXeeLqBYiNJ6ewmCdekMJCrvKiZBcxBy9c7AqOeGkK05mDlz/MXJZYQLIzhc4idj/PzmLusxws6D5HYVHLDIWFLd8VFrd8tbPAxzc7i7x/4VnoMM52qbodZYjFJjPoYMGPMZFFdyMsyUZmwMnCH+8si+9ekXz1TWQF/QvSgJ5FVjE8Ih3aE89KugdVi3pnWU1zk/VIN6QHXTlW1F1kTdJF06T9Y1lVAyDqEgGcumQATZcGgJU12LTZ4LWJSNoknNoUVG0qmjYE0qdr08Hq/p/q2nSQNqRPQ9Wm4tSmIGmTELX5wabNBqMNgKZLA5B1KQCiLgGA0cUCQNOk4d+kSb5wmrgLkB6E66RHvjF62BtULSrunRY/D9B0IDyNOoRHIA0Iz70G4QWqfIS3Tj77Clm6gveGZCM7AE62gKFZsoyxhuQiMwi2S9UthkepPD5MMiV8miVK+PiU58TnpzQnJjxlOTFlkiRj0iRHwrS+y9AjJrYkAVlMbfJ62WD2SGuRw4L2XCkbrGlpleqwbqQVyGPtSLO1gPV9nak6yGgzzUHJQFCX21ctOYhr49lGtRwNxN58KrVR/6cT1ZLiZjA3AFZQOCCSBQAAcB4AnQEqcQBwAD5pLpFFpCKhmAxOJEAGhLGDFACGkKdzcgtH098NvM34DeSMBV7Jv8x4V+W4Qsf2d2hyt+dxGmdX/uR/U0q3lCmofmloVHnbGXx0N1v2mUFnErUW9tPyAYZ3tIjc6RNGCnpN5x/RCckJHQZp2zhF8hR+peTuEPWPcAkx3oIipGH/ZyFlh0vNML+RRZ318XIIgZYG+hiWsBBqxe4tDCNY8JMpw+U7e/IqhenjaB5tPRDrANaGZhoMoMD1O9qHooQtqrUJTgWCFjRY/J0+cjSGqw1W88Y494oP9sUT5xH6JbnELzBBSJY4fPJefDACHZXebdOAAP79bpP8Kef/7YH//a43//tWrULjqExb3AXv3f3XSvHxK9ykgjRP3uoHtZNI64dxZKSJPIJQYvVbAxW8HGCMW9HchysObMpkYuT53M6aDY798ZMWWGhT1n7bSsRu7pt6y8q6NtflNqhwlzsa7CS0cA2CN9WTqyzP99lICEOSKcLcVf/9qz//tcb//2mkFhW395MLH/+eLEf7mA9VHEuvXRSooggzJx+ZLfp85rRJaBJkJmrnuuUhuSMr+u3Xj16XztcvGbBAUmMXlNV/ZnqHvANeLqpKB+uxilzyqKNM+KAQH3hkjAydmW4Cautq7oDfHVehdFP30YiORzeBV+oua7IIv7n3CDrfM39homIBo5A9bMA38QL5SUqyoUeuC5yUd/sdWLHu07q2lijqlLmjBiaSXS8F9FD6YW3crdypSBHgTArhRNaXK38WfPQA6gOcEYcAyTtUqxcCjEsMsftsEElK8ZTFqSceHMxAo/335w6iwK31sfpzImxD668H6upmQBO/b+6sajjNRNiYrzOvRDiMNR1enzUom8Ryy7gSQUHlEEnRkwrFR9OXPLa19GztMdQFije6fKIp+PQmnAQZj+nWVgaSP4AYNvRsQzYNx5tu9gcCyZY2b1/AAGe1bIljKYwbiq3CLmbHMNakL6zZZGbr3TSUq8fEaaNcPqdpD5uDWNee1jDHEexnpCNFiuMAp0/GYpSHg4nRDNj/d9eUks+ayoV/i0gkk/1PMaGklzmZTB/J1D1+aCxStq4VVkEzmPGp+t92jRCIs5caOnIBdoHCMs9kx8eFi1gcBGKpBAIW4NrRQ+dDOLffMB75vVTjrfOrAibHp0k/u8IL5tTs6csu/F5lXrU6ZVhMzB3qG9FtNtlXT89SNoslXX+3fx1/hpsQzcQAzJmjfs9DwvnkmSEAgihhTJ2bYAkVxg5rzJFuXMalvG8BvPUwHJN0w/r+TVH//9VUZP/oAidMMr6ChZZLl7LRP+ScTvDCrPxgyjue2Wu5pdePQbai+j4fFQBer1RTN2yj2fmaje5mCFl/wF2i9Br0wPJpmDTXL718HfkKPoDI8QbjO3258jHwFt7SZl06oLgSY4ocIXXs7kEwqGgCZfGHYyb2T7Z5Sk4CvFWIP1e5fmrOQ7gUhcvC50qo3MFgj57aKc0mCRYqbw8xqB6b6QV6/D/Lb4zj7xy8wjgfUx+sAOSoAwT6qLPVQhN2Ad9+4AX++KQC0BCU8J//mGhrugbLRrwFq5qBM7P/+5M8S+jMqxRWlw/0A4ueDpE0E7AITczT9CLqpsSXKzuNZEu7WCDNlVnavuNinSvJI8kKTw6EUzfWYrhl6bbJjBoqMJK1bNCxhqHP6aJajZuqvFV+AhoSmePpr6EbCNUgw8/JUKljhIdnRw+xWySJr7bJm+E8OKRNpRNaTxEZkY4uPjUUqkha944ZqjiFQOUmCZJL5EtoGE4ETjQocK5Kl73c8Z/Gh4DpUxSNzZkw9GMHMn/Stl81RCkqIcLHmW1GHlDCZP9VROonKFBtY+x1Do9FJPK19Rjjm9l8g21c59/7gvPyAAAAAA== 2x"
+          />
+          <source
+            type="image/png"
+            srcset="/pixel-pioneers-team-project/assets/IhorTrachuk@1x-37538750.png 1x, /pixel-pioneers-team-project/assets/IhorTrachuk@2x-43aebd60.png 2x"
+          />
+          <img
+            src="data:image/webp;base64,UklGRhIEAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFXbbt3oQggEQQgEM5gwiBk0DCwIYdAyCARDMARBEAT1mdjSWvMdEROAvpT3Q9TMtNV9IXidi9jVtpOHVK1vXUelav0ljZgOG3unbklstKRON/NYuhTzWToU81ouFfNbLtzM83qK1JXSGTHf7UQx7/yDxJ1O3x7mn7+QBdTpI0cw/pAQDcBsMROwBWGgBqmABlHMFpVSmL8cJnMY/lflMHkJkyjMDA2iQA1SAQ6yASnIDKCFEADgEOvHpBHoAxzgjq+TuhP6BnbH+N2cCU6SulI6g+xqw3l2xLjKbhjX2QmjJ7vY0DfJMEnoTY9Bx4SBSQbUhMG5dqoJDmlvl4RneKVlr03NTOXYM6EvVlA4IOACAADQDQCdASo5ADgAPm0skkYkIqGhLhbbiIANiWIAzBRpDShuW8q34Bp9zNSJMdrEg1kOoGuL9pYyySP+YzraLeqQdj9WAAeLj22Jmmxigw7xMt2XnDqLEN4vKeEHrk1LVCFBCsKB5W/h656qSIOsWYRTJaBrdjhAcAD+8Yx//0Of//Qyz//6FDYHV6AMBgOJt5YT/t79uVGxc/L/UbiZSKid1scmc/xl4qAzoFm2ntfPHch6/9Kh+d0I3bIwTZqrqx6UuK+4var9qEA+eWd562Dl+Eor9XvGtfzA0m+vnKr/48/eJKMcCDaR2CqJWwkz+mHQAPNojL8Bgd8Us35fBLhyUB8rrs/Rfrk4KL0qqpA/1UA123vNTXElM97rTVBv8w9Dx2MmrOh+P/GGHt5aF6y9/B1+wF1oygbgB/9JfudfTGRam+qpviSEVxAeyWRTrfYID4pPDStlR4tf0GaArnrKqAkvSh6Q2gg4uIcE4C7aGXoV4gWsgEFo2udgqG5XvbPqlZMRPUu7aWHwMXmNNAApGjd63FH1F8vdBZDvSBK6O/5H6sj/IoB+KvUK+gviN9v/9m0Hj5/4W2F+Lez00noU9HRJRi//yYzG3qHgvBUsw91Ls6fDKqWoIousT3VdzGxKxpeKOf0o98Ub80xWPHtUbaXVcPXpugyDBsle5SDRW3GYlS0v3mHq/jtLG+uKeGzRsULTgh1t+RschVBEoZPe5E0f8C0LJis1b7BcH9BhMxilvDvla3SejrE1cUu3NDcVkKwu+ERrGf/8eosGmW3ij6RveFXzpv0m6HLZA4tDowFo//Dof/2JTT4yqWdChuTTc7m7kBOj/L2Uh7eH/1fu5oW2YaC+JBudjIX/GFEJUTLjbgZRnypsBD1WnFk5gihpL38ms1kbT3zO9pxMdo2h+JI8EtyQ9tNd011R7EFP2HAmOfBHOnv21TM5jGWE2QNI48rICRGMX/GYPOOqAAAA"
+            alt="JohnWax review"
+            width="56"
+            height="56"
+            loading="lazy"
+          />
+        </picture>
         <div class="reviews-data">
           <h3 class="reviews-name">Ihor Trachuk</h3>
           <p class="reviews-desc">
@@ -434,28 +547,43 @@
         <picture class="fallow-img">
           <source
             media="(min-width: 1280px)"
-            width="427"
-            height="273"
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/BottleSmoothies@1x-6b3196ac.webp 1x, /pixel-pioneers-team-project/assets/BottleSmoothies@2x-b32b4db8.webp 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            type="image/png"
             srcset="/pixel-pioneers-team-project/assets/BottleSmoothies@1x-acf71487.png 1x, /pixel-pioneers-team-project/assets/BottleSmoothies@2x-31bf8d0f.png 2x"
           />
           <source
             media="(min-width: 768px) and (max-width:
           1279px)"
-            width="528"
-            height="273"
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/BottleSmoothies@1x-80a20ccd.webp 1x, /pixel-pioneers-team-project/assets/BottleSmoothies@2x-e48c6b71.webp 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width:
+          1279px)"
+            type="image/png"
             srcset="/pixel-pioneers-team-project/assets/BottleSmoothies@1x-3f11718e.png 1x, /pixel-pioneers-team-project/assets/BottleSmoothies@2x-a86a7874.png 2x"
           />
           <source
             media="(min-width: 320px) and (max-width: 767.98px)"
-            width="295"
-            height="273"
+            type="image/webp"
+            srcset="/pixel-pioneers-team-project/assets/BottleSmoothies@1x-87569aed.webp 1x, /pixel-pioneers-team-project/assets/BottleSmoothies@2x-95ec304b.webp 2x"
+          />
+          <source
+            media="(min-width: 320px) and (max-width: 767.98px)"
+            type="image/png"
             srcset="/pixel-pioneers-team-project/assets/BottleSmoothies@1x-6e19c0a5.png 1x, /pixel-pioneers-team-project/assets/BottleSmoothies@2x-270dcc8a.png 2x"
           />
 
           <img
+            class="order-img"
             width="295"
             height="273"
-            src="/pixel-pioneers-team-project/assets/BottleSmoothies@1x-6e19c0a5.png"
+            loading="lazy"
+            src="/pixel-pioneers-team-project/assets/BottleSmoothies@1x-87569aed.webp"
             alt="Bottle Smoothies"
           />
         </picture>
