@@ -285,6 +285,10 @@
     line-height: 1;
     letter-spacing: -0.015em;
   }
+  .order-img {
+    width: 528px;
+    height: 273px;
+  }
 }
 
 /* #endregion */
@@ -315,5 +319,10 @@
   .order-form {
     padding: 50px;
   }
+  .order-img {
+    width: 427px;
+    height: 273px;
+  }
 }
+
 /* #endregion */
