@@ -275,6 +275,10 @@
     letter-spacing: -0.015em;
     margin-left: 5px;
   }
+  .order-img {
+    width: 528px;
+    height: 273px;
+  }
 }
 
 /* #endregion */
@@ -305,5 +309,10 @@
   .order-form {
     padding: 50px;
   }
+  .order-img {
+    width: 427px;
+    height: 273px;
+  }
 }
+
 /* #endregion */
