@@ -63,6 +63,11 @@
   .open-menu-mobile-btn {
     padding: 35px 0;
   }
+
+  .burger-svg {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -86,7 +91,6 @@
 
 .nav-list {
   display: flex;
-  padding-top: 32px 0;
   gap: 8px;
 }
 
@@ -100,6 +104,12 @@
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list-item > a {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
 }
 
 .nav-list-item:hover,

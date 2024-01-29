@@ -24,8 +24,6 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.advertisement-desc {
-}
 
 .advertisement-desc {
   color: #141414;
@@ -34,8 +32,6 @@
   line-height: 1.04;
   letter-spacing: -0.015em;
   text-transform: uppercase;
-
-  text-shadow: 1px 1px white, 2px 2px #777;
 }
 
 @media screen and (min-width: 768px) {
@@ -49,7 +45,7 @@
 @media screen and (min-width: 1280px) {
   .advertisement-desc {
     font-size: 76px;
-    line-height: 1.5;
+    line-height: 1.05;
   }
 }
 
@@ -60,20 +56,24 @@
   background-color: #576f35;
   color: #fbfbfb;
   padding: 0 10px;
-
-  text-shadow: 5px 5px #333, 4px 4px #777;
 }
 
 @media screen and (min-width: 768px) {
   .discount {
-    padding: 0 16px;
-    margin: 0 -16px;
+    margin-bottom: -6px;
+    width: 736px;
+    padding: 8px 16px;
+    margin-left: -16px;
+    margin-right: -16px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .discount {
     padding: 0 14px;
-    margin: 0 -14px;
+    padding-right: 0;
+    margin-left: -14px;
+    width: 842px;
+    padding-bottom: 5px;
   }
 }
